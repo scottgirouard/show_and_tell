@@ -1,0 +1,106 @@
+
+@font-face {
+    font-family: STIXGeneralItalic;
+    src: url(./STIXGeneralItalic.otf);
+}
+
+.wrapper {
+    width: 88%;
+}
+
+body {
+    background-color: #805E73;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.imgCard img {
+    display: block;
+    max-width: 50%;
+    width: 48%;
+    float: right;
+    margin: 10px;
+    border-radius: 50%;
+    margin-top: 4rem;
+    padding-bottom: 60px;
+}
+
+img.screenShot {
+    margin-left: 20rem;
+}
+
+h1 {
+    color: rgba(143, 74, 74, 0.966);
+    text-align: center;
+    font-size: 5rem;
+    /* text-transform: uppercase; */
+    margin: 1rem;
+    padding: 2rem;
+    font-family: STIXGeneralItalic;
+}
+
+h1:hover {
+    color: rgba(189, 126, 126, 0.966);
+    transition: .3s ease-in-out; 
+}
+
+h2 {
+    font-family: STIXGeneralItalic;
+    font-size: 2.8rem;
+    color: rgb(172, 193, 206);
+    text-align: center;
+    border-bottom: 2px solid rgba(143, 74, 74, 0.966);
+    padding: 35px 0 38px 0;
+}
+
+h2:hover {
+    border-bottom: 5px solid rgba(189, 126, 126, 0.966);
+    transition: .3s ease-in-out;
+}
+
+h3 {
+    font-family: STIXGeneralItalic;
+    font-size: 2rem;
+    color: rgba(189, 126, 126, 0.966);
+    text-align: center;
+}
+
+h3:hover {
+    color: rgb(172, 193, 206);
+    font-weight: 800;
+}
+
+p {
+    font-family: 'PT Serif', serif;
+    font-size: 23px;
+    color: rgba(222, 229, 233, 0.954);
+    text-align: center;
+    letter-spacing: .5px;
+    line-height: 2rem;
+    padding: 20px 0 20px 0;
+}
+
+p span {
+    color: rgb(172, 193, 206);
+    font-weight: 800;
+}
+
+p span:hover {
+    color: rgb(225, 212, 212);
+    text-decoration: underline;
+}
+
+.browserSupport img {
+    margin: 0 0 0 60px;
+}
+
+img.smallShots {
+    margin-left: 15rem;
+    padding-bottom: 10px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
